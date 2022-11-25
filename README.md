@@ -80,3 +80,7 @@ Find the log4j2.xml file. Edit this file to add '{nolookups}' wherever you find 
 Run the following to repackage the jarfile:
 
 	rm minecraft_server.1.16.5.jar && jar -cvf minecraft_server.1.16.5.jar ./* && mv minecraft_server.1.16.5.jar ../minecraft_server.1.16.5.jar && cd ../ && rm -r tmp
+
+**Restart your container**
+	
+	docker container restart pixelmon
