@@ -55,9 +55,11 @@ Find jndilookup class and find log4j2.xml file. Edit this file to add 'nolookups
 	</Loggers>
 	</Configuration>
 	
-Repackage JAR file via jar -cvf Pixelmon-1.16.5-9.0.10-universal.jar
+Run the following to repackage the jarfile:
 
-# Docker command:
+	jar -cvf Pixelmon-1.16.5-9.0.10-universal.jar
+
+# Docker commands:
 Navigate to the same directory as your Dockerfile and build it:
 
     docker build . -t pixelmon
