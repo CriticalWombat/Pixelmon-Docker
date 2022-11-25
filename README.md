@@ -1,5 +1,5 @@
 # Pixelmon-Docker
-A Log4J mitigated Pixelmon server in Docker.
+A Log4J mitigated and updated Pixelmon server in Docker.
 
 **DISCLAIMER: I have mitigated Log4J as best as I know. You are responsible for ensuring it is fully secure.
 I have tested basic log4j exploits against my own running instance and was unable to trigger the vulnerability.**
